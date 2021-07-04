@@ -1,0 +1,608 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello"
+      ],
+      "responses": [
+        "Hi there, My name is bot. Welcome to PLM Nordic. What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "SmartPort",
+      "patterns": [
+        "What is SmartPort?",
+        "SmartPort?",
+         "SmartPort"
+      ],
+      "responses": [
+        "SmartPort is our answer to your PLM support-related problems. It is an advanced one-click solution to your existing system that solves your PLM-related problems in the shortest time."
+      ]
+    },
+    {
+      "tag": "PLM",
+      "patterns": [
+        "What is PLM?",
+        "What is meant by plm?",
+        "plm stands for?",
+        "PLM"
+      ],
+      "responses": [
+        "Product lifecycle management (PLM) refers to the management of data and processes used in the design, engineering, manufacturing, sales, and service of a product across its entire lifecycle and across the supply chain."
+        ]
+    },
+    {
+      "tag": "role of smartport",
+      "patterns": [
+        "What is the use of SmartPort?",
+        "what is the role of smartport?"
+        ],
+      "responses": [
+        "SmartPort is a single click add-on solution that provides proactive support, 24x7 dashboard monitoring, user-specific training guidance, and training, providing immediate assistance (which means smart chatbot), resulting in zero downtime."
+        
+      ]
+    },
+    {
+      "tag": "plm uses",
+      "patterns": [
+        "Why is PLM used?",
+        "what are the uses of plm?"
+         ],
+      "responses": [
+        "PLM can be used to increase output with constant resources, to increase revenues or to reduce the resources used to produce a constant output. This all helps to improve the bottom line."
+      ]
+    },
+    {
+      "tag": "PLM systems",
+      "patterns": [
+        "What do PLM systems do?",
+        "what is PLM systems?"
+      ],
+      "responses": [
+        "PLM is a software solution to manage products from cradle to grave by integrating data, workflows, and systems across a value chain to fuel collaboration and drop the cost of new product development by making processes fast, efficient, and simple."
+      ]
+    },
+    {
+      "tag": "cost-effective",
+      "patterns": [
+        "Is the smartport cost-effective?"
+         ],
+      "responses": [
+        "SmartPort is indeed a cost-effective solution that will provide value for money. Adding the SmartPort solution to your existing system will involve a thorough review of your existing system, current bottlenecks, and expectations. Hence, our smart solution will be tailor-fitted to your needs."
+      ]
+    },
+    {
+      "tag": "implement smartport",
+      "patterns": [
+        "Do i need to change my existing system to implement smartport?",
+        "Do i need to change my existing system to install smartport?"
+         ],
+      "responses": [
+        "No, SmartPort is an independent single click add-on solution that unlocks the shortest response time and provides proactive support. You do not need to change your existing system."
+      ]
+    },
+    {
+      "tag": "pricing model",
+      "patterns": [
+        "Is the pricing model of smartport fixed?"
+         ],
+      "responses": [
+        "The pricing model is fixed and it's only a one-time cost. This one-time cost includes base software cost, implementation & training."
+      ]
+    },
+    {
+      "tag": "ticketing system",
+      "patterns": [
+        "will it work with my existing ticketing system?"
+      ],
+      "responses": [
+        "Yes, it is an independent add-on smart solution that complements your existing ticketing system like ServiceNow, Jira, etc"
+      ]
+    },
+    {
+      "tag": "smartport features",
+      "patterns": [
+        "How Can SmartPort help me?", 
+        "Why should i add the smartport to my existing support?",
+        "what kind of features smartport offer me?"
+      ],
+      "responses": [
+         "We offers: guaranteed success without replacement of existing system, saves valuable user and support time, hassle-free and easy, 24x7 Dashboard monitoring, user training and guidance and save support costs and drive growth."
+      ]
+    },
+    {
+      "tag": "Smart Chatbot",
+      "patterns": [
+        "what is smartbot?",
+        "what is smart chatbot?"
+      ],
+      "responses": [
+         "It is a smart AI-powered chatbot that converses with users naturally, understanding problems and providing immediate assistance as well personal trainings."
+      ]
+    },
+    {
+      "tag": "Smart Dashboard",
+      "patterns": [
+        "what is Smart Dashboard?",
+        "what is 24X7 dashboard?"
+      ],
+      "responses": [
+         "It is a 24X7 dashboard monitoring for zero downtime, shortest response time and timely issue analysis. Displays heath of your PLM system in real time."
+      ]
+    },
+    {
+      "tag": "Teamcenter",
+      "patterns": [
+        "what is Teamcenter?",
+        "what is meant by Teamcenter?",
+        "Teamcenter?",
+        "Teamcenter"
+      ],
+      "responses": [
+        "Teamcenter is a cloud-based product lifecycle management platform. It allows users to edit product data and processes such as 3D designs, embedded software, documentation and bill of materials."
+      ]
+    },
+     {
+      "tag": "Structure Manager",
+      "patterns": [
+        "what is Structure Manager?",
+        "what is meant by Structure Manager in Teamcenter?",
+        "Structure Manager?"
+      ],
+      "responses": [
+        "Structure Manager is a module to create and manage bill of materials in Teamcenter. It also provides a lot of functionalities apart from BOM management like 3D visualization, variants and options, view related files, BOM compares, Redlining, BOM reports, and many more."
+
+      ]
+    },
+    {
+      "tag": "data model",
+      "patterns": [
+        "what is Teamcenter data model?",
+        "what is meant by data model in Teamcenter?",
+        "data model?"
+      ],
+      "responses": [
+        "The data model is a term used to describe the basic framework of Teamcenter. Teamcenter is flexible and can be changed/configured according to customer requirements."
+
+      ]
+    },
+    {
+      "tag": "change management",
+      "patterns": [
+        "what is Teamcenter change management?",
+        "what is meant by Teamcenter change management?",
+        "Teamcenter change management?"
+      ],
+      "responses": [
+        "Teamcenter change management provides a comprehensive set of tools to create and manage change in Teamcenter. It is a flexible solution that can be tuned to any process."
+
+      ]
+    },
+    {
+      "tag": "dataset",
+      "patterns": [
+        "what is dataset in Teamcenter?",
+        "what is meant by dataset in Teamcenter?",
+        "dataset in Teamcenter?"
+      ],
+      "responses": [
+        "A dataset in Teamcenter is nothing but anything which has a file associated with it. It can be a CAD dataset having a 2D drawing or 3D model. It can be an instruction having a word or PDF file."
+
+      ]
+    },
+    {
+      "tag": "Teamcenter rapid start",
+      "patterns": [
+        "What is Teamcenter rapid start?",
+        "Teamcenter rapid start?",
+        "Teamcenter rapid start"
+      ],
+      "responses": [
+        "Teamcenter Rapid Start is a lighter version of Teamcenter for organizations that need to quickly enable PDM benefits. Typically, it has good CAD integration with leading CAD software and helps with design data management."
+      ]
+    },
+    {
+      "tag": "Teamcenter uses",
+      "patterns": [
+        "What is Teamcenter used for?",
+        "Teamcenter uses?"
+      ],
+      "responses": [
+        "Teamcenter can help your teams create specifications, analysis reports, 2D/3D illustrations, spreadsheets, test results, and technical publications that are aligned with product changes to reduce the time and cost of development while improving document accuracy and effectiveness."
+      ]
+    },
+    {
+      "tag": "Teamcenter customer",
+      "patterns": [
+        "Who uses Teamcenter?",
+        "who can use Teamcenter?"
+      ],
+      "responses": [
+        "Teamcenter is used by almost all departments in business for various purposes. Engineering or R&D use it to create, change, release product design definitions like 2D, 3D, BOM, how-to instructions. etc."
+      ]
+    },
+     {
+      "tag": "Preferences",
+      "patterns": [
+        "What is Teamcenter Preferences?",
+        "Teamcenter Preferences?"
+      ],
+      "responses": [
+        "Preferences are like settings in Teamcenter. You can turn ON or OFF certain functionalities like advanced logs or you can choose between options like the location of logs etc. This makes Teamcenter much more flexible to use."
+      ]
+    },
+    {
+      "tag": "enterprise",
+      "patterns": [
+        "What is Teamcenter enterprise?",
+        "Teamcenter enterprise?"
+      ],
+      "responses": [
+        "It is an old platform for Teamcenter. Siemens moved to the Unified platform around 2007."
+      ]
+    },
+    {
+      "tag": "Access Manager",
+      "patterns": [
+        "What is Access Manager in Teamcenter?",
+        "Access Manager?"
+      ],
+      "responses": [
+        "Access Manager is a dedicated module in Teamcenter to define and manage accesses based on users, roles, groups, locations, and Projects. It is highly flexible and provides the opportunity to configure according to business needs."
+      ]
+    },
+    {
+      "tag": "revision rule",
+      "patterns": [
+        "What is revision rule  in Teamcenter?",
+        "revision rule?"
+      ],
+      "responses": [
+        "Teamcenter can have multiple revisions of an item and there can be different status on revision like working, released, preliminary, expired, etc. The revision rule helps to view a bill of material from a different perspective. "
+      ]
+    },
+    {
+      "tag": "Teamcenter X",
+      "patterns": [
+        "What is Teamcenter X?",
+        "Teamcenter X?"
+      ],
+      "responses": [
+        "Teamcenter X is a modern cloud-based SaaS PLM platform from Siemens. Teamcenter X has all the functionalities which the traditional Teamcenter Unified has but it also has cloud benefits."
+      ]
+    },
+    {
+      "tag": "Teamcenter help",
+      "patterns": [
+        "Where do i get help with Teamcenter?",
+        "Teamcenter help?",
+        "Any help with Teamcenter?"
+      ],
+      "responses": [
+        "Teamcenter is one of the world's most widely used PLM software. There are many channels for help. The official site for Teamcenter is the Siemens GTAC site. There are a number of other forums, LinkedIn and Facebook groups, Blogs, etc available for help. You can always write to us or book a consultation call with us to get free help on any issues you are facing."
+      ]
+    },
+     {
+      "tag": "document management",
+      "patterns": [
+        "How is document management in Teamcenter?"
+      ],
+      "responses": [
+        "You can by default manage documents in Teamcenter using OOTB item types and functionalities like version control, check-in, check-out, access control, etc."
+      ]
+    },
+    {
+      "tag": "Teamcenter interfaces",
+      "patterns": [
+        "What are Teamcenter interfaces?",
+        "Teamcenter interfaces?",
+        "Teamcenter interfaces"
+      ],
+      "responses": [
+        "Teamcenter provides several interfaces including a rich client interface, a Web-based thin client interface, a Business Modeler IDE, and Teamcenter Client for Microsoft Office."
+      ]
+    },
+    {"tag": "teamcenter services",
+      "patterns": [
+        "What are teamcenter services?",
+        "What is teamcenter services?",
+        "teamcenter services?",
+        "teamcenter services"
+      ],
+      "responses": [
+        "Teamcenter Services provide service interfaces that are both language and technology independent. All applications can use the same interfaces to backend systems, resulting in lower system and maintenance costs."
+      ]
+    },
+    {"tag": "rich client",
+      "patterns": [
+        "What is rich client Teamcenter?",
+        "What is rich client?",
+        "rich client?",
+        "rich client"
+      ],
+      "responses": [
+        "The Rich Application Client (RAC) is Teamcenter's most widely used user interface. With the help of the RAC, the user can access all Teamcenter functionalities. A rich client platform is a framework used to develop plug-in-based applications."
+      ]
+    },
+    {"tag": "thin client",
+      "patterns": [
+        "What is thin client Teamcenter?",
+        "What is thin client?",
+        "thin client?",
+        "thin client"
+      ],
+      "responses": [
+        "The thin client is a web browser application that does not include all features and uses a Java applet, so a locally-installed JRE is required."
+      ]
+    },
+    {"tag": "Active Workspace Client",
+      "patterns": [
+        "What is Active Workspace Client?",
+        "Active Workspace Client?",
+        "Active Workspace Client"
+      ],
+      "responses": [
+        "Active Workspace Client (AWC) is a web browser application that uses HTML5 (and optionally WebGL), and it can be configured to include most of the features that are available in RAC, as well as some features that are not in RAC."
+      ]
+    },
+    {"tag": "difference",
+      "patterns": [
+        "What is the difference between thin client and rich client?",
+        "difference between thin client and rich client?",
+        "difference between thin client and rich client"
+      ],
+      "responses": [
+        "Thin Client in Teamcenter is a Web Based Application and we have to use Thin Client by using URL. The main disadvantage of Thin Client is not able to perform CAD Integrations. While coming to Rich Client, it is a Java Based Application in which we can perform integrations."
+      ]
+    },
+    {"tag": "SOA",
+      "patterns": [
+        "What is SOA in Teamcenter?",
+        "SOA?",
+        "SOA"
+      ],
+      "responses": [
+        "Teamcenter Services use service-oriented architecture (SOA). SOA allows for contract-based, coarse-grained interfaces to expose Teamcenter functionality in a standard way."
+      ]
+    },
+    {"tag": "classification",
+      "patterns": [
+        "What is classification in Teamcenter?",
+        "classification in Teamcenter?"
+      ],
+      "responses": [
+        "Classification is used to create and maintain a hierarchical classification structure based on the attribute values of your workspace objects."
+      ]
+    },
+    {"tag": "FMS",
+      "patterns": [
+        "What is File Management System?",
+        "What is FMS?",
+        "FMS?",
+        "FMS"
+      ],
+      "responses": [
+        "File Management System (FMS) is one of the Teamcenter components for managing files or vault in Teamcenter. FMS is responsible for all transaction related to files from Teamcenter server and client."
+      ]
+    },
+    {"tag": "FSC",
+      "patterns": [
+        "What is FSC in Teamcenter?",
+        "What is FSC?",
+        "FSC?",
+        "FSC"
+      ],
+      "responses": [
+        "FMS Server Cache (FSC) is service running on the server side which basically cache file in the server and serves multiple user requests."
+      ]
+    },
+    {"tag": "FCC",
+      "patterns": [
+        "What is FCC in Teamcenter?",
+        "What is FCC?",
+        "FCC?",
+        "FCC"
+      ],
+      "responses": [
+        "FMS client cache (FCC) works on the client machine where it serves the request for a single user and also interacts with FSC for getting latest or new files from the server."
+      ]
+    },
+    {"tag": "2-Tier",
+      "patterns": [
+        "What is 2-Tier in Teamcenter?",
+        "What is 2-Tier?",
+        "2-Tier?",
+        "two-tier?",
+        "2 tier"
+      ],
+      "responses": [
+        "The two tiers are client tier and resource tier." 
+      ]
+    },
+    {"tag": "4-tier",
+      "patterns": [
+        "What is 4-tier in Teamcenter?",
+        "What is 4-tier?",
+        "4-tier?",
+        "four tier"
+      ],
+      "responses": [
+        "The four tiers are client tier, web tier, enterprise tier, and resource tier."
+      ]
+    },
+    {"tag": "handlers",
+      "patterns": [
+        "What is handlers in Teamcenter?",
+        "What is handlers?",
+        "handlers?",
+        "handlers"
+      ],
+      "responses": [
+        "In Teamcenter, handlers are small ITK (Integrated Toolkit) program which are used to satisfy industry's own requirements."
+      ]
+    },
+    {"tag": "action handlers",
+      "patterns": [
+        "What is action handlers in Teamcenter?",
+        "What is action handlers?",
+        "action handlers?",
+        "action handlers"
+      ],
+      "responses": [
+        "It is used to trigger specific action at workflow task level. For example: displaying information, retrieving the results of previous tasks, notifying users, etc."
+      ]
+    },
+    {"tag": "rule handlers",
+      "patterns": [
+        "What is rule handlers in Teamcenter?",
+        "What is rule handlers?",
+        "rule handlers?",
+        "rule handlers"
+      ],
+      "responses": [
+        "It is used to integrate business rules into workflow process at task level."
+      ]
+    },
+    {"tag": "PLM software list",
+      "patterns": [
+        "What are PLM software?",
+        "list of PLM software?"
+      ],
+      "responses": [
+        "Teamcenter, Enovia, Windchill, Creo, Aras, Arena PLM, Agile PLM, SAP PLM, Sharp PLM." 
+      ]
+    },
+    {
+      "tag": "CAD softwares",
+      "patterns": [
+        "What kind of CAD softwares supports teamcenter?",
+        "Which kind of CAD softwares supports teamcenter?"
+      ],
+      "responses": [
+        "Teamcenter provides integration with and supports a lot of CAD software like NX, CATIA, CREO, Solidege, Solidworks, AutoCAD, Inventor, and many more."
+      ]
+    },
+    {
+      "tag": "ERP interface",
+      "patterns": [
+        "what is teamcenter ERP interface?",
+        "teamcenter ERP interface?"
+      ],
+      "responses": [
+        "Teamcenter provides an interface framework for connecting to any ERP system caller T4Ea or T4E. Teamcenter also provides one of the best PLM-ERP interface available for any business called Teamcenter for SAP (T4S) integration."
+      ]
+    },
+    {"tag": "pool manager",
+      "patterns": [
+        "What is pool manager in Teamcenter?",
+        "What is pool manager?",
+        "pool manager?",
+        "pool manager"
+      ],
+      "responses": [
+        "Pool Manager also Called as Server Manager. The server manager is a process that manages a pool of Teamcenter server processes." 
+      ]
+    },
+    {"tag": "item",
+      "patterns": [
+        "What is item in Teamcenter?",
+        "What is item?",
+        "item?"
+      ],
+      "responses": [
+        "In Teamcenter, Item is a folder that contains all necessary information required to manufacture that product." 
+      ]
+    },
+    {"tag": "benefits of PLM",
+      "patterns": [
+        "What are the benefits of PLM?",
+        "What are the advantages of PLM?",
+        "benefits of PLM?",
+        "advantages of PLM?"
+      ],
+      "responses": [
+           "Benefits are: improved cycle time, better use of resources, increased productivity, enhanced quality of product, better design integrity and analytics, better communication within supply chain, and Reduced cost of product." 
+      ]
+    },
+    {"tag": "Windchill PLM system",
+      "patterns": [
+        "What is Windchill PLM system?",
+        "Windchill PLM system?",
+        "Windchill PLM system"
+      ],
+      "responses": [
+           "PTC's PLM system provides comprehensive out-of-the-box functionality and highly configurable role and task-based apps."
+      ]
+    },
+    {"tag": "PTC Windchill",
+      "patterns": [
+        "What is PTC Windchill?",
+        "PTC Windchill?",
+        "PTC Windchill"
+      ],
+      "responses": [
+           "It is product lifecycle management software that encourages a consolidated view of product information through multi-level data. It is a systematic approach to maintaining product and process quality over the complete product lifecycle." 
+      ]
+    },
+    {"tag": "PTC Windchill uses",
+      "patterns": [
+        "how is PTC Windchill useful?",
+        "PTC Windchill uses?"
+      ],
+      "responses": [
+           "PTC Windchill PLM gives an all-round functionality to help businesses capture product structures from computer-aided design tools, convert them into engineering bill of materials (eBOMs), to manufacturing bill of materials (mBOMs), and service bill of materials (sBOMs) while maintaining the links between different perspectives of the product."
+      ]
+    },
+    {"tag": "Jira",
+      "patterns": [
+        "What is Jira in Teamcenter?",
+        "What is Jira?",
+        "jira?",
+        "jira"
+      ],
+      "responses": [
+        "Jira is a software product that allows bug tracking and agile project management."
+      ]
+    },
+    {"tag": "Jira packages",
+      "patterns": [
+        "What are Jira packages?",
+        "Jira packages?",
+        "Jira packages"
+      ],
+      "responses": [
+        "Jira is offered in four packages: Jira Work Management, Jira Software, Jira Service Management, and Jira Align."
+      ]
+    },
+    {
+      "tag": "volume",
+      "patterns": [
+        "What is the volume?",
+        "volume?",
+        "volume"
+      ],
+      "responses": [
+        "A volume is a location where files are stored. A volume equates to a directory on the operating system. Files stored in volumes are created by CAD applications or other third-party applications."
+      ]
+    }
+  ]
+}
